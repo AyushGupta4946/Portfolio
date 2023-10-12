@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Gupta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <nav id="navbar">
+            <div class="left">
+                <h1 class="logo">Ayush</h1>
+            </div>
+            <div class="right">
+                <ul class="list">
+                    <li class="link">Home</li>
+                    <li class="link">About</li>
+                    <li class="link">Project</li>
+                    <li class="link">Contact</li>
+                </ul>
+            </div>
+        </nav>
+        <section id="home">
+            <div class="img">
+              <img src="me.png" alt=""/>
+            </div>
+            <div class="text">
+                <h1 class="heading">
+                    Hi, I'm Ayush <br>
+                    Frontend Developer
+                </h1>
+                <p class="about">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, mollitia! Officia velit eligendi, veniam laudantium aut similique omnis provident ut iste repellendus eaque dolorum dolorem consequatur ea et nostrum aliquid!
+                </p>
+                <button class="btn">
+                    <a href="">Download CV</a>
+                </button>
+            </div>
+        </section>
+        <section id="about">
+            <div class="text">
+                <h1 class="heading">Who I am</h1>
+                <p class="about">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, mollitia! Officia velit eligendi, veniam laudantium aut similique omnis provident ut iste repellendus eaque dolorum dolorem consequatur ea et nostrum aliquid!
+                </p>
+                <button class="btn">
+                    <a href="">Contact Me</a>
+                </button>
+            </div>
+            <div class="img">
+              <img src="me.png" alt=""/>
+
+            </div>
+        </section>
+        <section id="project">
+            <h2 class="title-heading">Projects</h2>
+            <div id="project-item">
+                <div class="item">
+                    <i class="fa-solid fa-thermometer"></i>
+                    <h3>Tempreature Convertor</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptatibus excepturi tenetur?</p>
+                </div>
+                <div class="item">
+                    <i class="fa-solid fa-list-check"></i>
+                    <h3>To-do List</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptatibus excepturi tenetur?</p>
+                </div>
+                <div class="item">
+                    <i class="fa-solid fa-stopwatch"></i>
+                    <h3>Stopwatch</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptatibus excepturi tenetur?</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2 class="title-heading">Contact Me</h2>
+            <div class="contact-section">
+                <div class="contact-left">
+                  <div class="contact-logo">
+                    <img src="me.png" alt="" />
+                  </div>
+                  <div class="contact-about">
+                    <h1>Ayush Gupta</h1>
+                    <p>Web Developer</p>
+                    <p>
+                      I am available for full time positions, Contact me and let 's
+                      talk
+                    </p>
+                    <p><i class="fa-solid fa-envelope"></i> aagm0404@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 9161861012</p>
+                  </div>
+                  <div class="social-icons">
+                    <p>Connect with me</p>
+                    <div class="icons">
+                      <a href="https://www.linkedin.com/in/ayush-gupta-951854185/"
+                        ><i class="fa-brands fa-linkedin"></i
+                      ></a>
+                      <a href="https://github.com/AyushGupta4946"
+                        ><i class="fa-brands fa-github"></i
+                      ></a>
+                      <a href=""><i class="fa-brands fa-facebook"></i></a>
+                      <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="contact-right">
+                  <form onsubmit="sendEmail(); reset(); return false">
+                    <label for="Name">NAME :</label>
+                    <input
+                      type="text"
+                      name="Name"
+                      placeholder="Enter Your Name"
+                      id="name"
+                      required
+                    />
+                    <label for="phone">PHONE :</label>
+                    <input
+                      type="number"
+                      name="phone"
+                      placeholder="Enter Your Contact Number"
+                      id="phone"
+                    />
+                    <label for="Email">EMAIL :</label>
+                    <input
+                      type="email"
+                      name="Email"
+                      placeholder="Your Email"
+                      id="email"
+                      required
+                    />
+                    <label for="Message">MESSAGE :</label>
+                    <textarea
+                      name="Message"
+                      rows="10"
+                      placeholder="Your Message"
+                      id="message"
+                    ></textarea>
+                    <div class="submit-button-container">
+                      <button type="submit" class="submit-btn" onclick="sendEmail()">
+                        Submit
+                      </button>
+                    </div>
+                    <!-- <a href="#" class="btn btn2">Submit</a> -->
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+    </div>
+    <script src="https://kit.fontawesome.com/7cc1870cb6.js" crossorigin="anonymous"></script>
+</body>
+</html>
